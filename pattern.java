@@ -516,7 +516,7 @@ public class pattern {
 				System.out.print(x--+" ");
 			}
 			System.out.println();
-		}*/
+		}
 		int n=5;
 		int x=n;
 		int y,t;
@@ -531,6 +531,411 @@ public class pattern {
 				y++;
 			}
 			x=x+i-1;
+			System.out.println();
+		}//pattern52
+		int px;
+		for(int i=1;i<=5;i++)
+		{
+			px=1;
+			for(int j=1;j<=i;j++)
+			{
+				System.out.print(px+" ");
+				px=px*(i-j)/j;
+			}
+			System.out.println();
+		}
+		int x=1;;
+		for(int i=0;i<5;i++)
+		{
+			for(int j=0;j<=i;j++)
+			{
+				System.out.print((x-i)+" ");
+				x++;
+			}
+			System.out.println();
+		}
+		int x=1;
+		for(int i=1;i<=5;i++)
+		{
+			for(int j=1;j<=i;j++)
+			{
+				System.out.print(x*x+" ");
+				 x++;
+			}
+			System.out.println();
+		}
+		int x;
+		int n=5;
+		for(int i=1;i<=n;i++)
+		{
+			x=i;
+			for(int j=1;j<=i;j++)
+			{
+				System.out.print(x+" ");
+				 x=x+(n-j);
+			}
+			System.out.println();
+		}
+		int n1=0;
+		int n2=1;
+		int r=n1+n2;
+		for(int i=1;i<=5;i++)//fibonacci series
+		{
+			for(int j=1;j<=i;j++)
+			{
+				System.out.print(r+" ");
+				r=n1+n2;
+				n1=n2;
+				n2=r;
+				
+			}
+			System.out.println();
+		}
+		int n1=0;
+		int n2=1;
+		int r=0;
+		for(int i=1;i<=5;i++)//fibonacci pyramid
+		{
+			for(int j=1;j<=i;j++)
+			{
+				n1=n2;
+				n2=r;
+				System.out.print(r+" ");
+				r=n1+n2;
+				
+			}
+			n1=0;
+			n2=1;
+			r=0;
+			System.out.println();
+		}
+		
+		for(int i=1;i<=5;i++)//fibonacci series
+		{
+			for(int j=1;j<=i;j++)
+			{
+				System.out.print((i%2)+" ");
+				
+			}
+			System.out.println();
+		}
+		for(int i=0;i<=5;i++)//fibonacci series
+		{
+			for(int j=0;j<=i;j++)
+			{
+				System.out.print((i%2)+" ");
+				
+			}
+			System.out.println();
+		}
+		for(int i=1;i<=5;i++)//fibonacci series
+		{
+			for(int j=1;j<=i;j++)
+			{
+				System.out.print((j%2)+" ");
+				
+			}
+			System.out.println();
+		}
+		for(int i=0;i<=5;i++)//fibonacci series
+		{
+			for(int j=0;j<=i;j++)
+			{
+				System.out.print((j%2)+" ");
+				
+			}
+			System.out.println();
+		}
+		for(int i=1;i<=5;i++)//fibonacci series
+		{
+			for(int j=1;j<=i;j++)
+			{
+				System.out.print((i+j)%2+" ");
+				
+			}
+			System.out.println();
+		}
+		char i,j;
+		for( i='A';i<='E';i++)
+		{
+			for( j='A';j<=i;j++)
+			{
+				System.out.print((i)+" ");
+			}
+			System.out.println();
+		}
+		char i,j;
+		for( i='A';i<='E';i++)
+		{
+			for( j='A';j<=i;j++)
+			{
+				System.out.print((j)+" ");
+				
+			}
+			System.out.println();
+		}
+		char i,j;
+		for( i='E';i>='A';i--)
+		{
+			for( j='E';j>=i;j--)
+			{
+				System.out.print((i)+" ");
+				
+			}
+			System.out.println();
+		}
+		char i,j;
+		for( i='E';i>='A';i--)
+		{
+			for( j='E';j>=i;j--)
+			{
+				System.out.print((j)+" ");
+			}
+			System.out.println();
+		}
+		for(int  i=0;i<=5;i++)
+		{
+			for( int j=i;j>=0;j--)
+			{
+				System.out.print( (char)(j+65)+" ");
+				
+			}
+			System.out.println();
+		}
+		for( int i=1;i<=5;i++)
+		{
+			for(  int j=5;j>=i;j--)
+			{
+				System.out.print("*");
+				
+			}
+			System.out.println();
+		}
+		for( int i=1;i<=5;i++)
+		{
+			for(  int j=5;j>=i;j--)
+			{
+				System.out.print(i+" ");
+				
+			}
+			System.out.println();
+		}
+		for( int i=1;i<=5;i++)
+		{
+			for(  int j=5;j>=i;j--)
+			{
+				System.out.print(j+" ");
+				
+			}
+			System.out.println();
+		}
+		for( int i=5;i>=1;i--)
+		{
+			for(  int j=1;j<=i;j++)
+			{
+				System.out.print(j+" ");	
+			}
+			System.out.println();
+		}
+		for( int i=5;i>=1;i--)
+		{
+			for(  int j=1;j<=i;j++)
+			{
+				System.out.print(i);	
+			}
+			System.out.println();
+		}
+		int n=5;
+		for( int i=1;i<=n;i++)
+		{
+			for(  int j=1;j<=n-i+1;j++)
+			{
+				System.out.print((n-j+i)+" ");
+			}
+			System.out.println();
+		}
+		int n=5;
+		for( int i=1;i<=n;i++)
+		{
+			for(  int j=1;j<=n-i+1;j++)
+			{
+				System.out.print((n-i+j)+" ");
+			}
+			System.out.println();
+		}
+		int n=5;
+		int k=1;
+		for( int i=5;i>=1;i--)
+		{
+			for(  int j=1;j<=i;j++)
+			{
+				System.out.print((k)+" ");
+				k++;
+			}
+			System.out.println();
+		}int n=5;
+		int x=(n*(n+1))/2;
+		for( int i=1;i<=n;i++)
+		{
+			for(  int j=5;j>=i;j--)
+			{
+				System.out.print((x--)+" ");
+			}
+			System.out.println();
+		}
+		int n=4;
+		int k;
+		int d1=1;
+		int d2=(n*n)+1;
+		for( int i=n;i>=1;i--)
+		{
+			for(  int j=1;j<=i;j++)
+			{
+				System.out.print(d2+" ");
+				d2++;
+			}
+			d2--;
+			d2=d2-((i-1)*2);
+			System.out.println();
+		}
+		int n=5;
+		int k;
+		for( int i=n;i>=1;i--)
+		{
+			k=i;
+			for(  int j=1;j<=i;j++)
+			{
+				System.out.print((k)+" ");
+				k=k+(n-j);
+			}
+			System.out.println();
+		}
+		int n=5;
+		for( int i=1;i<=n;i++)
+		{
+			for(  int j=n;j>=i;j--)
+			{
+				System.out.print((i%2)+" ");
+			}
+			System.out.println();
+		}
+		int n=5;
+		for( int i=0;i<=n;i++)
+		{
+			for(  int j=n;j>=i;j--)
+			{
+				System.out.print((i%2)+" ");
+			}
+			System.out.println();
+		}
+		int n=5;
+		for( int i=1;i<=n;i++)
+		{
+			for(  int j=n;j>=i;j--)
+			{
+				System.out.print((j%2)+" ");
+			}
+			System.out.println();
+		}
+		int n=5;
+		for( int i=n;i>=1;i--)
+		{
+			for(  int j=0;j<=i;j++)
+			{
+				System.out.print((j%2)+" ");
+			}
+			System.out.println();
+		}//pattrnn84
+		int n=5;
+		for( int i=n;i>=1;i--)
+		{
+			for(  int j=0;j<=i;j++)
+			{
+				System.out.print((i+j)%2+" ");
+			}
+			System.out.println();
+		}
+		int n=5;
+		for( int i=1;i<=n;i++)
+		{
+			for(  int j=n;j>=i;j--)
+			{
+				System.out.print((i+j)%2+" ");
+			}
+			System.out.println();
+		}
+		int n=4;
+		for( int i=0;i<=n;i++)
+		{
+			for(  int j=n;j>=i;j--)
+			{
+				System.out.print((char)(i+65)+" ");
+			}
+			System.out.println();
+		}
+		int n=4;
+		for( int i=n;i>=0;i--)
+		{
+			for(  int j=0;j<=i;j++)
+			{
+				System.out.print((char)(j+65)+" ");
+			}
+			System.out.println();
+		}
+		int n=4;
+		for( int i=n;i>=0;i--)
+		{
+			for(  int j=0;j<=i;j++)
+			{
+				System.out.print((char)(i+65)+" ");
+			}
+			System.out.println();
+		}
+		int n=4;
+		for( int i=0;i<=n;i++)
+		{
+			for(  int j=n;j>=i;j--)
+			{
+				System.out.print((char)(j+65)+" ");
+			}
+			System.out.println();
+		}
+		int n=4;
+		for( int i=0;i<=n;i++)
+		{
+			for(  int j=n-i;j>=0;j--)
+			{
+				System.out.print((char)(j+65)+" ");
+			}
+			System.out.println();
+		}
+		int n=5;
+		for( int i=1;i<=n;i++)
+		{
+			for(  int j=1;j<=n-i+1;j++)
+			{
+				System.out.print((char)(n-j+i+64)+" ");
+			}
+			System.out.println();
+		}
+		int n=5;
+		for( int i=1;i<=n;i++)
+		{
+			for(  int j=1;j<=n-i+1;j++)
+			{
+				System.out.print((char)(n-i+j+64)+" ");
+			}
+			System.out.println();
+		}*/
+		int n=5;
+		char ch='A';
+		for( int i=1;i<=n;i++)
+		{
+			for(  int j=1;j<=i;j++)
+			{
+				System.out.print(ch+" ");
+				ch++;
+			}
 			System.out.println();
 		}
 	}
